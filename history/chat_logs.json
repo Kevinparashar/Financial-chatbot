@@ -1,0 +1,67 @@
+[
+    {
+        "query": "Tell me what it holds",
+        "response": "Sorry, I couldn't understand the request."
+    },
+    {
+        "query": "Can you summarize this document?",
+        "response": "Unsupported file format..."
+    },
+    {
+        "query": "Can you summarize this document?",
+        "response": "Financial Intelligence Chatbot Assignment Objective Develop a robust, scalable financial chatbot capable of processing both structured and unstructured financial documents. The system should extract key insights, summarize content, and answer user queries based on uploaded data. The solution must automatically determine which processing action or tool to invoke, ensuring smooth integration between user intent and backend processing. Functional Requirements 1. Data Handling & Analysis \u25cf File Types: \u25cb Accept document formats including CSV, Excel, Links, PDF, and DOCX. \u25cf Data Extraction: \u25cb Extract financial data such as trends, totals, statistical insights, and other performance metrics. \u25cb Interpret both tabular and..."
+    },
+    {
+        "query": "Can you summarize this document?",
+        "response": "Financial Report Summary Revenue increased by 20% compared to the previous quarter. Expenses were controlled effectively. Overall profit margin improved...."
+    },
+    {
+        "query": "Can you summarize this document?",
+        "response": "Cannot summarize tabular data."
+    },
+    {
+        "query": "analyze the data",
+        "response": "Sorry, I couldn't understand the request."
+    },
+    {
+        "query": "Give me the summary statistics?",
+        "response": "Cannot summarize tabular data."
+    },
+    {
+        "query": "What is the average revenue in this dataset?",
+        "response": {
+            "summary_stats": {
+                "Revenue": {
+                    "count": 3.0,
+                    "mean": 12333.333333333334,
+                    "std": 2516.6114784235833,
+                    "min": 10000.0,
+                    "25%": 11000.0,
+                    "50%": 12000.0,
+                    "75%": 13500.0,
+                    "max": 15000.0
+                },
+                "Expense": {
+                    "count": 3.0,
+                    "mean": 6000.0,
+                    "std": 1000.0,
+                    "min": 5000.0,
+                    "25%": 5500.0,
+                    "50%": 6000.0,
+                    "75%": 6500.0,
+                    "max": 7000.0
+                },
+                "Profit": {
+                    "count": 3.0,
+                    "mean": 6333.333333333333,
+                    "std": 1527.5252316519468,
+                    "min": 5000.0,
+                    "25%": 5500.0,
+                    "50%": 6000.0,
+                    "75%": 7000.0,
+                    "max": 8000.0
+                }
+            }
+        }
+    }
+]
